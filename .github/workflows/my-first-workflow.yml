@@ -16,7 +16,7 @@ jobs:
         # Action to perform ( Multi-Liner )  
         run: |
           echo "First output........!"
-          echo "Second output.......................:"
+          echo "Second output........................:"
   second-job:
     # Apply sequesnce by useing needs ( needs: << name of previous job >> like ( needs: first-job ) )
     needs: first-job
