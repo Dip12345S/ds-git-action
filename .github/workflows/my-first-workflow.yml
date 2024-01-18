@@ -1,0 +1,16 @@
+# Workflow Name
+name: First Workflow
+# Triggering Event
+on: workflow_dispatch
+jobs:
+  # Job name
+  first-job:
+    # Environment Type
+    runs-on: ubuntu-latest
+    steps:
+        # Step Name
+      - name: Print greeting
+        # Action to perform
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
