@@ -10,7 +10,11 @@ jobs:
     steps:
         # Step Name
       - name: Print greeting
-        # Action to perform
         run: echo "Hello World!"
+        # Action to perform
+      - name: Multi Liner  
+        run: |
+          echo "First output........!"
+          echo "Second output.......................:"
       - name: Print goodbye
         run: echo "Done - bye!"
